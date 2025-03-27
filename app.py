@@ -12,7 +12,7 @@ def index():
 def get_weather():
     city = request.form['city']
 
-    # Thay thế YOUR_API_KEY bằng API key của bạn từ OpenWeatherMap
+    #API key từ OpenWeatherMap
     api_key = 'f1f051900e3beebc29aeef4c68832c15'
     url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}'
     
