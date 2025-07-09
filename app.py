@@ -25,4 +25,4 @@ def get_weather():
         return render_template('error.html', error=str(e))
 
 if __name__ == '__main__':
-    app.run(hostname="0.0.0.0",port=10000)
+app.run(hostname="0.0.0.0", port=3000)
